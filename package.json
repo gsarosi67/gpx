@@ -1,0 +1,21 @@
+{
+  "name": "parsegpx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parsegpx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "parsegpx": "./parsegpx.js"
+  },
+  "author": "George Sarosi",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.6.0",
+    "google-polyline": "^1.0.3",
+    "httpdispatcher": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "xml2js": "^0.4.22"
+  }
+}
